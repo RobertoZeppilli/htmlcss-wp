@@ -49,9 +49,7 @@ h5 {
 }
 
 /* navbar */
-nav {
-    height: 100px;
-}
+
 .list-inline {
     line-height: 80px;
 }
@@ -150,7 +148,7 @@ footer > h5 {
 
 footer > h5::after {
     content: '\2665';
+    margin-left: 5px;
     font-size: 20px;
     color: red;
-    margin-left: 5px;
 }
