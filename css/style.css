@@ -41,7 +41,7 @@ h5 {
 
 /* logo */
 #logo-container {
-    width: 13%;
+    max-width: 150px;
     border-right: 1px solid #C0C0C0;    
 }
 #logo-container > img {
@@ -49,7 +49,6 @@ h5 {
 }
 
 /* navbar */
-
 .list-inline {
     line-height: 80px;
 }
@@ -69,13 +68,9 @@ h5 {
 
 /* banner */
 .banner {
-    /* background-color: #DAA520; */
     height: 500px;
     margin: 20px 0;
-    background-image: url(../img/banner.jpg); 
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
+    background: url(../img/banner.jpg) no-repeat center center/cover;
     border-radius: 10px;
 }
 .banner-text {
@@ -97,11 +92,9 @@ section.top {
    height: 80px;
    padding: 20px 0;
 } 
-
 .main-container {
     padding: 15px 0;
 }
-
 aside.left,
 aside.right {
     float: left;
@@ -114,24 +107,22 @@ section.center {
     margin: 0 1%;
 }
 
-.left-img {
+/* main backgrounds */
+.bg {
     height: 200px;
-    background-image: url(../img/img-1.jpg);
     background-size: cover;
     background-position: center
 }
+.left-img {
+    background-image: url(../img/img-1.jpg);
+}
 .right-img {
-    height: 200px;
     background-image: url(../img/img-3.jpg);
-    background-size: cover;
-    background-position: center;
 }
 .main-img {
-    height: 200px;
     background-image: url(../img/banner-2.jpg);
-    background-size: cover;
-    background-position: center;
 }
+/* /main backgrounds */
 
 
 /* footer */
@@ -140,12 +131,10 @@ footer {
     margin-top: 10px;
     line-height: 50px;
 }
-
 footer > h5 {
-   text-align: center;
-   vertical-align: middle;
+    text-align: center;
+    vertical-align: middle;
 }
-
 footer > h5::after {
     content: '\2665';
     margin-left: 5px;
